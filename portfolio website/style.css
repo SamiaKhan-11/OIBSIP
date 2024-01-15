@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-size: 1990px;
+    image-rendering: auto;
+    background-image: url(img3.jpg);
+    background-repeat: no-repeat;
+    background-color: rgb(34, 5, 82);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.left {
+    font-size: 1.5rem;
+
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background: rgb(48, 11, 116);
+
+}
+
+nav h1 span .lo {
+    align-items: center;
+    margin: 10px
+}
+
+nav ul {
+    display: flex;
+
+}
+
+nav ul li {
+    list-style: none;
+    justify-content: space-around;
+    margin: 0 23px;
+    padding: 8px 15px;
+    border-radius: 10px;
+
+}
+
+nav ul li:hover {
+
+    background: #773ce4ea;
+}
+
+nav ul li {
+    list-style: none;
+    justify-content: space-around;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(159, 87, 207);
+    font-size: 1.05rem;
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 0;
+
+}
+
+.first>div {
+    width: 30%;
+}
+
+.leftsection {
+    font-size: 3rem;
+}
+
+.shape {
+    border: 10px solid white
+}
+
+.purple {
+    color: rgb(191, 99, 245);
+}
+
+main hr {
+    border: 0;
+    background-color: rgb(187, 123, 247);
+    height: 1.3px;
+    margin: 40px 84px;
+}
+
+#element {
+    color: rgb(191, 99, 245);
+}
+
+.second {
+    max-width: 80vw;
+    margin: auto;
+}
+
+#button {
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 13px;
+    margin: 5px;
+    width: 204px;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+
+}
+
+#button:hover {
+    background: #773ce4ea;
+    font-size: 1.4rem;
+}
+
+#white {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.share {
+    position: absolute;
+    bottom: 3rem;
+    left: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.share h3 {
+    font-size: 1.2rem;
+    margin-right: 25px;
+}
+
+.social i {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+    background: #00000071;
+    border-radius: 50%;
+    color: var(--social-color, white);
+    font-size: 20px;
+    margin: 0 7px;
+    transition: all 0.6s ease-in-out;
+}
+
+.social i:hover {
+    transform: translateY(-10px);
+}
